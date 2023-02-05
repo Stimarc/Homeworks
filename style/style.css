@@ -3,113 +3,81 @@
    padding: 0;
    box-sizing: border-box;
 }
+ol,ul{
+   list-style: none;  
+}
+a{
+   text-decoration: none;
+}
+.container{
+   max-width: 1110px;
+   margin: 0 auto;
+}
+.menu{
+   margin: 0;
 
-.wrap{
-   width: 100%;
-   background: #C4C4C4;
 }
-.block-line{
-   width: 1100px;
-  
-}
-.block{
-   width: 200px;
-   height: 200px;
-   background: #FC8F8F;
-   font-size: 64px;
-   color:white;
-   padding: 80px;
-   margin: 100px;
-}
-.block-1{
-float: left;
-}
-.block-2{
-   width: 200px;
-   height: 200px;
-   background: #FC8F8F;
-   float: right;
-}
-.clear{
-clear: both;
-height: 1px;
-background: black;
-}
-.block-line-2{
-   width: 1100px;
-   float: left;
-}
-
-.small{
-font-size: 64px;
-   color:white;
-   float: right;
-   padding: 80px;
-   margin: 10px;
-   
-}
-.block-small-5{
-   width: 100px;
-   height: 100px;
-   background: #FC8F8F;
-}
-   
-   .block-small-4{
-      width: 100px;
-      height: 100px;
-      background: #FC8F8F;
-   }
-   .block-small-3{
-      width: 100px;
-      height: 100px;
-      background: #FC8F8F;
-      
-   }
-   .block-small-2{
-      width: 100px;
-      height: 100px;
-      background: #FC8F8F;
-   }
-
-.block-line-3{
-   width: 1100px;
-}
-.bl{
+.menu-item{
    display: inline-block;
-   font-size: 64px;
-   color:white;
-   padding: 80px;
-   margin: 10px;
+   margin: 20px;
 }
-.bl2{   
-   font-size: 64px;
-   color:white;
-   padding: 80px;
-   float: right;
-   margin: 10px;
-}
-.blocks-1{
-   width: 200px;
-   height: 200px;
-   background: #FC8F8F;
-   float: left;
+.menu li a{
+   color: #000;
 
-   
 }
-.blocks-2{
-   width: 200px;
-   height: 200px;
-   background: #FC8F8F;
-   float: left;
- 
+.head-section{
+padding-top: 171px;
 }
-.blocks-3{
-   width: 200px;
-   height: 200px;
-   background: #FC8F8F;
+.head-section h1{
+ font-size: 50px;
+ margin-bottom: 40px;
 }
-.blocks-4{
-   width: 200px;
-   height: 200px;
-   background: #FC8F8F;
+.head-section p{
+   padding-bottom: 20px;
+}
+.btn{
+   width: 220px;
+   height: 55px;
+   background: #34547A;
+}
+
+.btn a{
+  font-size: 35px;
+   color: white;
+}
+.about-me{
+   text-align: center;
+   margin: 0;
+   padding-top: 200px;
+}
+.about-me p{
+   padding-bottom: 20px;
+}
+
+.projects{
+   background: #34547A;
+}
+.projects-item{
+text-align: center;
+margin: 0;
+padding: 50px;
+}
+
+.how-i-work{
+   text-align: center;
+   margin: 0;
+   padding-top:  200px;
+}
+.how-i-work p{
+   padding-top: 10px;
+}
+.how-i-work img{
+   margin-top: 30px;
+}
+
+.footer{
+   background: #34547A;
+}
+.footer p{
+color: white;
 }
