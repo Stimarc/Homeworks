@@ -19,7 +19,7 @@ a{
 }
 .menu-item{
    display: inline-block;
-   margin: 20px;
+   margin: 20px; 
 }
 .menu li a{
    color: #000;
