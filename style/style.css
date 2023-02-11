@@ -15,15 +15,39 @@ a{
 }
 .menu{
    margin: 0;
-
 }
 .menu-item{
    display: inline-block;
    margin: 20px;
+   position: relative;
 }
 .menu li a{
    color: #000;
-
+}
+.menu-item a:hover{
+   color: blue;
+}
+.menu-item.active::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: blue;
+    bottom: -3px;
+    left: 0;
+}
+.menu-item::before{
+   content: "";
+   position: absolute;
+   width: 0;
+   height: 2px;
+   background: blue;
+   bottom: -3px;
+   left: 0;
+   transition: 0.5s;
+}
+.menu-item:hover::before{
+   width: 100%;
 }
 .head-section{
 padding-top: 171px;
@@ -31,6 +55,25 @@ padding-top: 171px;
 .head-section h1{
  font-size: 50px;
  margin-bottom: 40px;
+ position: relative;
+}
+.head-section h1::after{
+   content: '';
+   width: 23px;
+   height: 23px;
+   background: url(../images/free-icon-font-sparkles-6853966.svg)center;
+   background-size: contain;
+   position: absolute;  
+}
+.head-section h1::before{
+   content: '';
+   width: 23px;
+   height: 23px;
+   background: url(../images/free-icon-font-sparkles-6853966.svg)center;
+   background-size: contain;
+   position: absolute;
+   left: -30px;
+   top: 45px;  
 }
 .head-section p{
    padding-bottom: 20px;
@@ -42,13 +85,37 @@ padding-top: 171px;
 }
 
 .btn a{
-  font-size: 35px;
+  font-size: 16px;
    color: white;
+   background: #34547A;
+   padding: 25px 41px;
+   text-transform: uppercase;
+   display: block;
 }
 .about-me{
    text-align: center;
    margin: 0;
    padding-top: 200px;
+}
+.about-me h2{
+   position: relative;
+}
+.about-me h2::after{
+   content: '';
+   width: 23px;
+   height: 23px;
+   background: url(../images/free-icon-font-user-3917705.svg)center;
+   background-size: contain;
+   position: absolute;
+}
+.about-me h2::before{
+   content: '';
+   width: 23px;
+   height: 23px;
+   background: url(../images/free-icon-font-user-3917705.svg)center;
+   background-size: contain;
+   position: absolute;
+   margin-left: -24px;
 }
 .about-me p{
    padding-bottom: 20px;
@@ -67,6 +134,26 @@ padding: 50px;
    text-align: center;
    margin: 0;
    padding-top:  200px;
+}
+.how-i-work h3{
+   position: relative;
+}
+.how-i-work h3::after{
+   content: '';
+   width: 23px;
+   height: 23px;
+   background: url(../images/free-icon-font-computer-3917429.svg)center;
+   background-size: contain;
+   position: absolute;
+}
+.how-i-work h3::before{
+   content: '';
+   width: 23px;
+   height: 23px;
+   background: url(../images/free-icon-font-computer-3917429.svg)center;
+   background-size: contain;
+   position: absolute;
+   margin-left: -24px;
 }
 .how-i-work p{
    padding-top: 10px;
