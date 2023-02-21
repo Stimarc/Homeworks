@@ -35,30 +35,26 @@ padding-top: 171px;
 .head-section p{
    padding-bottom: 20px;
 }
-.btn{
-   width: 220px;
-   height: 55px;
-   background: #34547A;
-}
 .btn a{
    font-size: 16px;
     color: white;
     background: #34547A;
     padding: 25px 41px;
     text-transform: uppercase;
-    display: block;
+    display: inline-block
  }
-.about-me{
+ 
+.about-h2{
    text-align: center;
-   margin: 0;
-   padding-top: 200px;
+   padding: 50px 0;
 }
-.about-me p{
-   padding-bottom: 20px;
+.about-p{
+ text-align: center;
 }
 
 .projects{
    background: #34547A;
+   margin-top: 100px;
 }
 .projects-item{
 text-align: center;
@@ -66,16 +62,15 @@ margin: 0;
 padding: 50px;
 }
 
-.how-i-work{
-   text-align: center;
-   margin: 0;
-   padding-top:  200px;
+.how-h3{
+  text-align: center;
+  padding: 50px;
 }
 .how-i-work p{
-   padding-top: 10px;
+   text-align: center;
 }
 .how-i-work img{
-   margin-top: 30px;
+   padding: 100px 0;
 }
 
 .footer{
