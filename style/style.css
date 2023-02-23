@@ -58,17 +58,21 @@ color:#333333;
 .wrap-image{
    display: flex;   
 }
+.image-text{
+  
+}
 .image-text h1{
    font-size: 48px;
    line-height: 56px;
    color: #FFFFFF;
-   margin: 192px 0; 
+   padding:192px 50px; 
 }
 .image-text p{
    font-size: 14px;
    line-height: 20px;
    color: #FFFFFF;
-   margin-top: -150px
+   margin-top: -140px;
+   text-align: center;
 }
 .image-text a{
    width: 170px;
@@ -81,20 +85,22 @@ color:#333333;
    text-align: center;
    letter-spacing: 0.05em;
    color: #FFFFFF;
-   margin: 50px;
+   margin:150px ;
+   margin-top: 50px;
 }
 .wrap-image-fon{
-   width: 1110px;
-   height: 604px;
-   background: url("../images/Fon.png")no-repeat center;
+   background: url("../images/Fon.png")no-repeat center/contain;
    display: flex;
-   align-items: flex-start;
    margin: 30px 0 ;
       
 }
 h3{
    font-size: 24px;
+   line-height: 28px;
 
+   
+   
+   color: #000000;
 }
 .wrap-armchair-h-p-a{ 
    display: flex;
@@ -192,16 +198,84 @@ padding: 53px;
    justify-content: center;
    
 }
+.wrap-impuls{
+   display: flex;
+   flex-wrap: wrap;
+   padding:100px;
+}
+.wrap-impuls img{
+padding: 35px 70px;
+
+}
 .wrap-category{
    display: flex;
    justify-content: space-between
    
+}
+.category h2{
+   margin: 30px 0 60px;
+}
+
+.category-item a{
+   font-size: 12px;
+   line-height: 28px;
+   color: #828282;
+ 
 }
 .line{
    color: grey;
    border: 1px solid #EFEFEF;
 }
 .wrap-footer-rectangle{
-   width: 1920px;
    background: #FFFFFF;
+
+}
+.line-footer{
+   border: 1px solid #EFEFEF;
+}
+.wrap-footer-line{
+display: inline;
+}
+.wrap-social-network{
+   justify-content: flex-start;
+   margin: 37px;
+}
+.wrap-fone a{
+   font-size: 16px;
+   line-height: 19px;
+   color: #000000;
+}
+.wrap-fone{
+   display: flex;
+   justify-content: flex-end;
+   
+}
+.wrap-btn{
+   margin-left: 40px;
+}
+
+.wrap-btn a{
+   background: #FFFFFF;
+   border: 2px solid #F13C6E;
+   border-radius: 40px;
+   font-size: 14px;
+   line-height: 16px;
+   color: #000000;
+}
+.wrap-pravo{
+   display: flex;
+   justify-content: flex-start;
+}
+.wrap-pravo{
+   font-size: 12px;
+   line-height: 14px;
+   color: #828282;
+}
+.wrap-politic {
+   display: flex;
+   justify-content: flex-end;
+   font-size: 12px;
+   line-height: 14px;
+   text-align: right;
+   color: #828282;
 }
