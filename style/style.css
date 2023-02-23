@@ -9,75 +9,199 @@ ol,ul{
 a{
    text-decoration: none;
 }
+
 .container{
    max-width: 1110px;
-   margin: 0 auto;
+   margin: auto;
 }
-.menu{
-   margin: 0;
+.wrap-section{
+   width: 1110px;
+   height: 50px;
+   background: silver;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
-}
 .menu-item{
+   font-size: 14px;
    display: inline-block;
-   margin: 20px;
+   padding: 32px;
+   
 }
-.menu li a{
+.menu-item a{
+color:#333333;
+}
+.wrap-image{
+   display: flex;
+   justify-content: center;
+   padding: 41px 0 45px;
+}
+.wrap-header{
+   width: 1110px;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   background: #E5E5E5;
+   align-items: center;
+}
+.wrap-header a{
+   font-size: 16px;
+   color: #000000;
+}
+.menu-item-hd {
+   font-size: 16px;
+   display: inline;
+   padding: 40px;
    color: #000;
-
+}   
+.wrap-image{
+   display: flex;   
 }
-.head-section{
-padding-top: 171px;
+.image-text h1{
+   font-size: 48px;
+   line-height: 56px;
+   color: #FFFFFF;
+   margin: 192px 0; 
 }
-.head-section h1{
- font-size: 50px;
- margin-bottom: 40px;
+.image-text p{
+   font-size: 14px;
+   line-height: 20px;
+   color: #FFFFFF;
+   margin-top: -150px
 }
-.head-section p{
-   padding-bottom: 20px;
-}
-.btn{
-   width: 220px;
-   height: 55px;
-   background: #34547A;
-}
-
-.btn a{
-  font-size: 35px;
-   color: white;
-}
-.about-me{
+.image-text a{
+   width: 170px;
+   display: inline-block;
+   background: #F13C6E;
+   border: 2px solid #FFFFFF;
+   border-radius: 40px;
+   font-size: 14px;
+   line-height: 16px;
    text-align: center;
-   margin: 0;
-   padding-top: 200px;
+   letter-spacing: 0.05em;
+   color: #FFFFFF;
+   margin: 50px;
 }
-.about-me p{
-   padding-bottom: 20px;
+.wrap-image-fon{
+   width: 1110px;
+   height: 604px;
+   background: url("../images/Fon.png")no-repeat center;
+   display: flex;
+   align-items: flex-start;
+   margin: 30px 0 ;
+      
+}
+h3{
+   font-size: 24px;
+
+}
+.wrap-armchair-h-p-a{ 
+   display: flex;
+   justify-content: space-around;
+   padding:38px 0 100px;
+   
+   
+}
+.block-wrap{
+   width: 255px;
+   height: 363px;
+   background: white;
+   padding: 25px 0 172px;
+   border: 2px solid grey;
+   text-align: center;  
 }
 
-.projects{
-   background: #34547A;
+.red{
+ width: 130px;
+ height: 35px;
+ background: #F13C6E;
+ border-radius: 30px;
+ display: inline-block;
+ padding: 9px 0 9px;
+ color: #FFFFFF;
 }
-.projects-item{
-text-align: center;
-margin: 0;
-padding: 50px;
+.red a{
+padding: 9px 40px 9px;
+}
+.wrap-block{
+   width: 540px;
+   height: 212px;
+   background: #F13C6E;
+   display: flex;   
+   justify-content: space-between;
+   align-items: center;
 }
 
-.how-i-work{
+.block-text h4{
+   width: 250px;
+   font-size: 18px;
+   color: #FFFFFF;
+   margin: 35px;
+}
+.block-text p{
+   font-size: 14px;
+   line-height: 20px;
+   color: #FFFFFF;
+   margin: 25px;
+}
+.block-text a{
+   width: 200px;
+   display: inline-block;
+   margin: 25px;
+   background: #FFFFFF;
+   border-radius: 30px;
+   font-size: 14px;
+   line-height: 16px;
    text-align: center;
-   margin: 0;
-   padding-top:  200px;
+   color: #C4C4C4;
 }
-.how-i-work p{
-   padding-top: 10px;
+.block-img{
+padding: 53px;
 }
-.how-i-work img{
-   margin-top: 30px;
+.block-text-map h4{
+   width: 250px;
+   font-size: 18px;
+   color: #FFFFFF;
+   margin: 35px;
+}
+.block-text-map p{
+   font-size: 14px;
+   line-height: 20px;
+   color: #FFFFFF;
+   margin: 25px;
 }
 
-.footer{
-   background: #34547A;
+.block-text-map a{
+   width: 170px;
+   display: inline-block;
+   margin: 25px;
+   background: #F13C6E;
+   border: 2px solid #FFFFFF;
+   border-radius: 30px;
+   font-size: 14px;
+   line-height: 16px;
+   text-align: center;
+   color: #FFFFFF;
 }
-.footer p{
-color: white;
+.block-img-car {
+   padding:4px;
+}
+.wrap-container{
+   display: flex;
+   justify-content: center;
+   
+}
+.wrap-category{
+   display: flex;
+   justify-content: space-between
+   
+}
+.line{
+   color: grey;
+   border: 1px solid #EFEFEF;
+}
+.wrap-footer-rectangle{
+   width: 1920px;
+   background: #FFFFFF;
 }
