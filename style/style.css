@@ -9,3 +9,272 @@ ol,ul{
 a{
    text-decoration: none;
 }
+.container{
+   max-width: 1110px;
+   margin: auto;
+}
+.wrap-section{
+   width: 1110px;
+   height: 50px;
+   background: silver;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.menu-item{
+   font-size: 14px;
+   display: inline-block;
+   padding: 32px;
+   
+}
+.menu-item a{
+color:#333333;
+}
+.wrap-image{
+   display: flex;
+   justify-content: center;
+   padding: 41px 0 45px;
+}
+.wrap-header{
+   width: 1110px;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   background: #E5E5E5;
+   align-items: center;
+}
+.wrap-header a{
+   font-size: 16px;
+   color: #000000;
+}
+.menu-item-hd {
+   font-size: 16px;
+   display: inline;
+   padding: 40px;
+   color: #000;
+}   
+.wrap-image{
+   display: flex;   
+}
+.image-text{
+  
+}
+.image-text h1{
+   font-size: 48px;
+   line-height: 56px;
+   color: #FFFFFF;
+   padding:192px 50px; 
+}
+.image-text p{
+   font-size: 14px;
+   line-height: 20px;
+   color: #FFFFFF;
+   margin-top: -140px;
+   text-align: center;
+}
+.image-text a{
+   width: 170px;
+   display: inline-block;
+   background: #F13C6E;
+   border: 2px solid #FFFFFF;
+   border-radius: 40px;
+   font-size: 14px;
+   line-height: 16px;
+   text-align: center;
+   letter-spacing: 0.05em;
+   color: #FFFFFF;
+   margin:150px ;
+   margin-top: 50px;
+}
+.wrap-image-fon{
+   background: url("../images/Fon.png")no-repeat center/contain;
+   display: flex;
+   margin: 30px 0 ;
+      
+}
+h3{
+   font-size: 24px;
+   line-height: 28px;
+
+   
+   
+   color: #000000;
+}
+.wrap-armchair-h-p-a{ 
+   display: flex;
+   justify-content: space-around;
+   padding:38px 0 100px;
+   
+   
+}
+.block-wrap{
+   width: 255px;
+   height: 363px;
+   background: white;
+   padding: 25px 0 172px;
+   border: 2px solid grey;
+   text-align: center;  
+}
+
+.red{
+ width: 130px;
+ height: 35px;
+ background: #F13C6E;
+ border-radius: 30px;
+ display: inline-block;
+ padding: 9px 0 9px;
+ color: #FFFFFF;
+}
+.red a{
+padding: 9px 40px 9px;
+}
+.wrap-block{
+   width: 540px;
+   height: 212px;
+   background: #F13C6E;
+   display: flex;   
+   justify-content: space-between;
+   align-items: center;
+}
+
+.block-text h4{
+   width: 250px;
+   font-size: 18px;
+   color: #FFFFFF;
+   margin: 35px;
+}
+.block-text p{
+   font-size: 14px;
+   line-height: 20px;
+   color: #FFFFFF;
+   margin: 25px;
+}
+.block-text a{
+   width: 200px;
+   display: inline-block;
+   margin: 25px;
+   background: #FFFFFF;
+   border-radius: 30px;
+   font-size: 14px;
+   line-height: 16px;
+   text-align: center;
+   color: #C4C4C4;
+}
+.block-img{
+padding: 53px;
+}
+.block-text-map h4{
+   width: 250px;
+   font-size: 18px;
+   color: #FFFFFF;
+   margin: 35px;
+}
+.block-text-map p{
+   font-size: 14px;
+   line-height: 20px;
+   color: #FFFFFF;
+   margin: 25px;
+}
+
+.block-text-map a{
+   width: 170px;
+   display: inline-block;
+   margin: 25px;
+   background: #F13C6E;
+   border: 2px solid #FFFFFF;
+   border-radius: 30px;
+   font-size: 14px;
+   line-height: 16px;
+   text-align: center;
+   color: #FFFFFF;
+}
+.block-img-car {
+   padding:4px;
+}
+.wrap-container{
+   display: flex;
+   justify-content: center;
+   
+}
+.wrap-impuls{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 100px;
+}
+.wrap-impuls img{
+padding: 35px 70px;
+
+}
+.wrap-category{
+   display: flex;
+   justify-content: space-between
+   
+}
+.category h2{
+   margin: 30px 0 60px;
+}
+
+.category-item a{
+   font-size: 12px;
+   line-height: 28px;
+   color: #828282;
+ 
+}
+.line{
+   color: grey;
+   border: 1px solid #EFEFEF;
+}
+.wrap-footer-rectangle{
+   background: #FFFFFF;
+
+}
+.line-footer{
+   border: 1px solid #EFEFEF;
+}
+.wrap-footer-line{
+display: inline;
+}
+.wrap-social-network{
+   justify-content: flex-start;
+   margin: 37px;
+}
+.wrap-fone a{
+   font-size: 16px;
+   line-height: 19px;
+   color: #000000;
+}
+.wrap-fone{
+   display: flex;
+   justify-content: flex-end;
+   
+}
+.wrap-btn{
+   margin-left: 40px;
+}
+
+.wrap-btn a{
+   background: #FFFFFF;
+   border: 2px solid #F13C6E;
+   border-radius: 40px;
+   font-size: 14px;
+   line-height: 16px;
+   color: #000000;
+}
+.wrap-pravo{
+   display: flex;
+   justify-content: flex-start;
+}
+.wrap-pravo{
+   font-size: 12px;
+   line-height: 14px;
+   color: #828282;
+}
+.wrap-politic {
+   display: flex;
+   justify-content: flex-end;
+   font-size: 12px;
+   line-height: 14px;
+   text-align: right;
+   color: #828282;
+}

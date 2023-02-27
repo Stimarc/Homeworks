@@ -1,0 +1,99 @@
+.container{
+    max-width: 1110px;
+}
+/*decktop*/
+@media screen and(max width 1000px){
+.wrap-section{
+    width: 45%;
+}
+.wrap-section{
+    width: 45%;
+}
+.head-section{
+    width: 45%;
+}
+.wrap-header{
+    width: 45%;
+}
+.wrap-image-fon{
+    width: 45%;
+}
+.h3{
+    width: 45%;
+}
+.section-armchair{
+    width: 45%;
+}
+.wrap-block{
+    width: 45%;
+}
+.wrap-impuls{
+    width: 50%;
+}
+.footer{
+    width: 45%;
+}
+}
+
+
+
+/*smart device*/
+@media screen and(max width 600px){
+    .wrap-section{
+        width: 100%;
+    }
+    .head-section{
+        width: 100%;
+    }
+    .wrap-header{
+        width: 100%;
+    }
+    .wrap-image-fon{
+        width: 100%;
+    }
+    .h3{
+        width: 100%;
+    }
+    .section-armchair{
+        width: 100%;
+    }
+    .wrap-block{
+        width: 100%;
+    }
+    .wrap-impuls{
+        width: 50%;
+    }
+    .footer{
+        width: 100%;
+    }
+    }
+    /*other device*/
+    @media screen and(max width 800px){
+        .wrap-section{
+            width: 50%;
+        }
+        .head-section{
+            width: 50%;
+        }
+        .wrap-header{
+            width: 50%;
+        }
+        .wrap-image-fon{
+            width: 50%;
+        }
+        .h3{
+            width: 50%;
+        }
+        .section-armchair{
+            width: 50%;
+        }
+        .wrap-block{
+            width: 50%;
+        }
+        .wrap-impuls{
+            width: 100%;
+        }
+        .footer{
+            width: 50%;
+        }
+        }
