@@ -1,11 +1,39 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+@import './_mixins.scss';
+@import './style.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
-ol,ul{
-   list-style: none;  
+.container{
+   max-width: 1146px;
+   margin: auto;
 }
-a{
-   text-decoration: none;
+.wrap-header{ 
+   height: 729px;
+   background: url(../images/Background.png)no-repeat center;  
 }
+.wrap-header{
+   display: flex;
+   justify-content: center;
+   align-items: baseline;
+   justify-content: space-around;
+}
+.wrap-menu{
+   display: inline-flex;
+}
+.menu-item-red{
+   @include font( #FF4B32;,30px,500);
+}
+.menu-item a{
+   margin: 40px;
+}
+.description{
+
+}
+
+
+
