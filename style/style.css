@@ -1,6 +1,3 @@
-@import './_mixins.scss';
-@import './style.scss';
-
 * {
   margin: 0;
   padding: 0;
@@ -8,32 +5,35 @@
   list-style: none;
   text-decoration: none;
 }
-.container{
-   max-width: 1146px;
-   margin: auto;
-}
-.wrap-header{ 
-   height: 729px;
-   background: url(../images/Background.png)no-repeat center;  
-}
-.wrap-header{
-   display: flex;
-   justify-content: center;
-   align-items: baseline;
-   justify-content: space-around;
-}
-.wrap-menu{
-   display: inline-flex;
-}
-.menu-item-red{
-   @include font( #FF4B32;,30px,500);
-}
-.menu-item a{
-   margin: 40px;
-}
-.description{
 
+.container {
+  max-width: 1146px;
+  margin: auto;
 }
 
+.wrap-coffe-beans {
+  width: 362px;
+  height: 536px;
+  display: flex;
+  justify-content: center;
+  
+}
 
+.white-block {
+  width: 362px;
+  height: 300px;
+}
 
+.beans-item h2 {
+  color: black;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Josefin Sans";
+}
+
+.beans-item p {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans";
+}/*# sourceMappingURL=style.css.map */

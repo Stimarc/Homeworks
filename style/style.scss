@@ -8,11 +8,43 @@
     list-style: none;
     text-decoration: none;
 }
-.menu-item-red{
-    @include font( #FF4B32;,30px,500);
+.container{
+    max-width: 1146px;
+    margin: auto;
 }
+.wrap-update-news{
+    @include flex(center,center);
+    @include font(black,43px,600,"Josefin Sans");
+}
+.wrap-update-news h1{
+    @include font(black,43px,600,"Josefin Sans");
+}
+.wrap-update-news p{
+    @include font(black,18px,400,"Open Sans");
+}
+.wrap-coffe-beans{
+    @include flex(center,center);
+}
+.beans-item{
+    width: 362px;
+    height: 536px;
+}
+.white-block{
+    width: 362px;
+    height: 300px;
+    @include font(white);
+
+}
+// .menu-item-red{
+//     @include font( #FF4B32;,30px,500);
+// }
 //     @include font(blue,30px,500);
-// }
-// .text1{
-//     @include font(red,35px,700,"Arial");
-// }
+.beans-item h2{
+    @include font(black,32px,600,"Josefin Sans");
+}
+.beans-items p{
+    @include font(black,16px,400,"Open Sans");
+}
+ 
+
+
