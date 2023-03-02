@@ -8,7 +8,8 @@
 
 .container {
   max-width: 1146px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 0px 25px;
 }
 
 .wrap-update-news {
@@ -16,6 +17,7 @@
   font-size: 43px;
   font-weight: 600;
   font-family: "Josefin Sans";
+  padding: 60px;
 }
 
 .wrap-update-news h1 {
@@ -23,11 +25,7 @@
   font-size: 43px;
   font-weight: 600;
   font-family: "Josefin Sans";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  text-align: center;
   padding: 140px 0 20px;
 }
 
@@ -36,11 +34,7 @@
   font-size: 18px;
   font-weight: 400;
   font-family: "Open Sans";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  text-align: center;
 }
 
 .wrap-coffe {
@@ -51,7 +45,15 @@
   flex-wrap: wrap;
 }
 
-.white-block text {
+.white-block {
+  width: 362px;
+  height: 536px;
+  background: #FFFFFF;
+  box-shadow: 40px 15px 136px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.white-block h2 {
   color: black;
   font-size: 32px;
   font-weight: 600;

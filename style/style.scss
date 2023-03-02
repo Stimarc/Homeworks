@@ -10,28 +10,35 @@
 }
 .container{
     max-width: 1146px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0px 25px;
 }
 .wrap-update-news{
     @include font(black,43px,600,"Josefin Sans");
+    padding: 60px
 }
 .wrap-update-news h1{
     @include font(black,43px,600,"Josefin Sans");
-    @include flex(center,center);
+   text-align: center;
     padding: 140px 0 20px; 
 }
 .wrap-update-news p{
     @include font(black,18px,400,"Open Sans");
-    @include flex(center,center);
+   text-align: center
 }
 .wrap-coffe{
     @include flex(space-between,center);
-
 }
-
-.white-block text{
+.white-block{
+    width: 362px;
+    height: 536px;
+    background: #FFFFFF;
+    box-shadow: 40px 15px 136px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.white-block h2 {
     @include font(black,32px,600,"Josefin Sans");
-     padding: 30px 10px 15px 30px;
+    padding: 30px 10px 15px 30px;
  }
 .white-block p{
     @include font(black,16px,400,"Open Sans");
