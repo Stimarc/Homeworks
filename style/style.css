@@ -11,29 +11,62 @@
   margin: auto;
 }
 
-.wrap-coffe-beans {
-  width: 362px;
-  height: 536px;
-  display: flex;
-  justify-content: center;
-  
-}
-
-.white-block {
-  width: 362px;
-  height: 300px;
-}
-
-.beans-item h2 {
+.wrap-update-news {
   color: black;
-  font-size: 32px;
+  font-size: 43px;
   font-weight: 600;
   font-family: "Josefin Sans";
 }
 
-.beans-item p {
+.wrap-update-news h1 {
+  color: black;
+  font-size: 43px;
+  font-weight: 600;
+  font-family: "Josefin Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 140px 0 20px;
+}
+
+.wrap-update-news p {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.wrap-coffe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.white-block text {
+  color: black;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Josefin Sans";
+  padding: 30px 10px 15px 30px;
+}
+
+.white-block p {
   color: black;
   font-size: 16px;
   font-weight: 400;
   font-family: "Open Sans";
+  padding: 30px 10px 15px 30px;
+}
+
+.white-block a {
+  padding: 30px 10px 15px 30px;
 }/*# sourceMappingURL=style.css.map */
