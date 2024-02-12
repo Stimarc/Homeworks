@@ -4,54 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Головна сторінка</title>
-    <style>
-        body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+<style>
+    .apple-logo {
+  position: relative;
+  width: 100px;
+  height: 120px;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: inset -20px 0 #c8c8c8;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 10px;
-    margin-bottom: 20px;
+.apple-logo .body {
+  background-color: #ffcc00;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
-.media iframe, .media audio {
-    display: block;
-    margin-top: 20px;
+.apple-logo .bite {
+  background-color: #f1f1f1;
+  border-radius: 0 50% 50% 0;
+  width: 35%;
+  height: 20%;
+  position: absolute;
+  right: 0;
+  top: 25%;
 }
 
-a {
-    display: inline-block;
-    margin-top: 20px;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+.apple-logo .leaf {
+  background-color: #76b900;
+  width: 20%;
+  height: 10%;
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  transform: rotate(-45deg);
+  border-radius: 0 50% 50% 0;
 }
 
-a:hover {
-    background-color: #0056b3;
-}
-
-    </style>
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1>Мої відвідини</h1>
-        <div class="preview">
-            <a href="page1.html">Відвідане місце 1</a>
-            <a href="page2.html">Відвідане місце 2</a>
-            <a href="page3.html">Відвідане місце 3</a>
-            <a href="page4.html">Відвідане місце 4</a>
-        </div>
-    </div>
+    <div class="apple-logo">
+        <div class="body"></div>
+        <div class="bite"></div>
+        <div class="leaf"></div>
+      </div>      
 </body>
 </html>
