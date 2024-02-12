@@ -1,0 +1,193 @@
+* 
+{
+margin: 0; /*убрать все отступы*/
+padding: 0; /*убрать все поля*/
+}
+body
+{
+	width: 100%;/*отображать страницу на всю ширину окна браузера*/
+	background-color: #FFF8DC;
+}
+#logo_container{
+	width: 300px;/*ширина блока с логотипом*/
+	height: 200px;/*высота блока с логотипом*/
+	margin: 0 auto;/*выравнивание блока по центру страницы*/
+	position: relative;/*сделаем блок точкой
+	 отсчета позиций для всех состовляющих логотипа*/
+	margin-top: 100px;/*сделаем небольшой отступ сверху*/
+}
+#logo{
+	width: 100px;/*ширина блока */
+	margin-left: 100px;/*сделаем небольшой отступ слева*/
+}
+.head{
+	position: relative;	/*сделаем блок точкой
+	 отсчета позиций для всех состовляющих головы*/
+	height: 40px;/*высота головы*/
+	background: #bdd73c;/*зеленый цвет фона*/
+	border: 2px solid #6fb74d;/*контур головы шириной в 2px 
+	темно-зеленого цвета*/
+
+	border-radius:60px 60px 0 0 / 50px 50px 0 0;
+	
+}
+.ant{
+	width: 2px;/*ширина*/
+	height: 25px;/*высота*/
+	background: #bdd73c;/*цвет*/
+	border: 2px solid #6fb74d; /*внешняя граница*/
+	position: absolute;/*позиция*/
+	border-radius: 3px 3px 0 0;/*делаем закругленную форму*/
+	border-bottom: 2px solid #bdd73c;/*изменяем цвет нижней границы*/
+}
+.ant_left{
+	top: -22px;/*смещение по вертикале - настройка позиции*/
+	left: 15px;/*смещение по горизонтале - настройка позиции*/
+	transform: rotate(-30deg);/*поворот под углом*/
+}
+.ant_right{
+	top: -22px;/*смещение по вертикале - настройка позиции*/
+	left: 73px;/*смещение по горизонтале - настройка позиции*/
+	transform: rotate(30deg);/*поворот под углом*/
+}
+.lefteye, .righteye{
+	position: absolute;/*позиция*/
+	background: #fff;
+	border: 2px solid #6fb74d;
+	width: 10px;
+	height: 10px;
+	top: 15px;
+	border-radius:10px;
+	z-index:2;/*переместить на слой выше*/
+}
+.lefteye{
+	left: 15px;
+}
+.righteye{
+	left: 65px;
+}
+.body{
+	overflow: hidden;
+	border: 2px solid #6fb74d;
+	margin-top: 4px;
+	border-radius: 0 0 60px 60px;
+}
+.strip{
+	height: 18px;
+	background: #bdd73c;
+}
+.brown{
+	height: 22px;
+	background: #5a4a42;
+}
+.left_wings .wing1, 
+.left_wings .wing2
+{
+	width: 100px;	
+	background: #e2e2e3;
+	border: 2px solid #d1d0d1;
+	border-radius: 16px 0 0 16px;
+	position: absolute;
+}
+.left_wings .wing1
+{
+	height: 35px;
+	top: 48px;
+	left: 0;
+	z-index: -1;/*переместить на слой ниже(задний план)*/
+	opacity: 0.8;/*прозрачность крыла*/
+}
+.left_wings .wing2
+{
+	top: 80px;
+	left: 20px;
+	z-index: -1;/*переместить на слой ниже(задний план)*/
+	opacity: 0.6;/*прозрачность крыла*/
+	height: 25px;
+	transform: rotate(-45deg);
+}
+.right_wings .wing1, 
+.right_wings .wing2{
+	width: 100px;	
+	background: #e2e2e3;
+	border: 2px solid #d1d0d1;
+	border-radius: 0 16px 16px 0;
+	position: absolute;
+}
+.right_wings .wing1{
+	height: 35px;
+	top: 48px;
+	left: 200px;
+	z-index: -1;
+	opacity: .8;
+}
+.right_wings .wing2{
+	top: 80px;
+	left: 175px;
+	z-index: -1;
+	opacity: .6;
+	height: 25px;
+	transform: rotate(45deg);
+}
+.tail{
+	width: 16px;
+	height: 40px;
+	left: 143px;
+	margin-top: -1px;
+	position: absolute;
+	background: #6fb74d;
+}
+.tail_left{
+	width: 8px;
+	height: 40px;
+	background: #fff;
+	float: left;
+	border-top-right-radius:16px 40px;
+}
+.tail_right{
+	width: 8px;
+	height: 40px;
+	background: #fff;
+	float: left;
+	border-top-left-radius:16px 40px;
+}
+@keyframes animation_right_wing1 {
+	0% { transform: rotate(0deg); }
+	50% { transform: rotate(50deg); }
+	100% { transform: rotate(0deg); }
+  }
+  
+  .right_wings .wing1 {
+	animation: animation_right_wing1 3s infinite;
+  }
+  
+  .right_wings .wing2 {
+	animation: animation_right_wing1 3s infinite;
+  }
+  
+  .left_wings .wing1 {
+	animation: animation_right_wing1 3s infinite;
+  }
+  
+  .left_wings .wing2 {
+	animation: animation_right_wing1 3s infinite;
+  }
+  
+  @keyframes cloud_move {
+	from { background-position: 0 0; }
+	to { background-position: 120% 0; }
+  }
+  
+  #logo_container {
+	background: url(../img/cloud.png) no-repeat fixed, linear-gradient(to top, #ADD8E6, #1E90FF) fixed;
+	animation: cloud_move 10s linear infinite;
+  }
+  
+  
+
+
+
+
+
+
+
